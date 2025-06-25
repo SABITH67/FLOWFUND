@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b2aafa;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.inner {
+    background-color: black;
+    width: 1200px;
+    height: 800px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.solutions {
+    display: flex;
+    list-style: none;
+}
+
+.li {
+    margin-right: 20px;
+}
+
+.flow {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.faq {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+}
+
+.open-account {
+    color: greenyellow;
+    display: flex;
+}
+
+.svg {
+    width: 20px;
+    height: 20px;
+}
+
+.ai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.ai-border {
+    display: flex;
+    border: 2px solid white;
+    width: 250px;
+    justify-content: center;
+    border-radius: 20px;
+}
