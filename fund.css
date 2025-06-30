@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-max-height:max-content;
 
 }
 
@@ -42,7 +41,7 @@ max-height:max-content;
 .flow {
     display: flex;
     align-items: center;
-  
+
 }
 
 .faq {
@@ -186,7 +185,7 @@ max-height:max-content;
         width: 100%;
         gap: 10px;
     }
-    
+
     .outer {
         display: flex;
         flex-wrap: wrap;
@@ -194,6 +193,7 @@ max-height:max-content;
         height: 100%;
         min-height: 100vh;
     }
+
     .inner {
         width: 100vw;
         height: auto;
@@ -225,7 +225,7 @@ max-height:max-content;
         justify-content: flex-end;
     }
 
-    .content { 
+    .content {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -247,18 +247,118 @@ max-height:max-content;
         align-items: center;
         gap: 20px;
         width: 100%;
-        }
-        .card-1,
-        .card-3,
-        .card-5 {
+    }
+
+    .card-1,
+    .card-3,
+    .card-5 {
         width: 90%;
         min-width: 0;
         margin: 0 auto;
         height: auto;
         min-height: 120px;
         box-sizing: border-box;
-        }
-        .card-3 {
+    }
+
+    .card-3 {
         min-height: 180px;
-        }
+
+    }
+}
+
+@media all and (min-width: 431px) and (max-width: 1200px) {
+    .head {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .outer {
+        border-radius: 0px;
+        height: 100%;
+        min-height: 100vh;
+
+    }
+
+    .inner {
+        width: 95vw;
+        height: auto;
+        min-height: 100vh;
+        max-width: 100%;
+        box-sizing: border-box;
+       
+    }
+
+    .navbar {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .solutions,
+    .faq {
+        display: flex;
+    }
+
+    .ai {
+        flex-wrap: wrap;
+    }
+
+    .open-account {
+        justify-content: flex-end;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        font-size: medium;
+    }
+
+    .head {
+        display: flex;
+        justify-content: center;
+    }
+
+    .paragraph {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cards { 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .card-1,
+    .card-3,
+    .card-5 {
+        min-width: 200px;
+        margin: 10px;
+        height: auto;
+        min-height: 120px;
+
+    }
+
+    .card-3 {
+        min-height: 180px;
+    }
+
+    .card-1,
+    .card-5 {
+        width: 200px;
+    }
+
+    .card-3 {
+        width: 400px;
+    }
 }
